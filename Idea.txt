@@ -1,0 +1,88 @@
+Create a realistic-looking "Hacking Simulator" terminal webpage using only:
+
+- HTML
+- Tailwind CSS
+- Vanilla JavaScript
+
+Requirements:
+
+1. Create a full-screen terminal-style interface with:
+   - Black/dark background
+   - Green terminal text
+   - Monospace font
+   - Slight green glow/text-shadow effect
+   - Centered terminal window
+   - Responsive design for desktop and mobile
+
+2. Display these messages one by one:
+
+   Initializing Hacking...
+   Reading your Files...
+   Password files Detected...
+   Sending all passwords and personal files to server...
+   Cleaning up...
+
+3. Each message must appear after a RANDOM delay between 1 and 7 seconds.
+
+4. The three dots "..." at the end of each message must blink/animate continuously so 
+that it looks like a real terminal.
+
+5. Use JavaScript's setTimeout() to control the random delays.
+
+6. The messages should appear sequentially:
+   - First message
+   - Wait random 1–7 seconds
+   - Second message
+   - Wait random 1–7 seconds
+   - Third message
+   - Wait random 1–7 seconds
+   - Fourth message
+   - Wait random 1–7 seconds
+   - Fifth message
+
+7. Add a realistic terminal cursor:
+   - Blinking green cursor
+   - Cursor should appear after the currently displayed text
+
+8. Add a small terminal header:
+   - Three circular window buttons
+   - Title: "Hacking Simulator"
+   - Terminal-style layout
+
+9. Add subtle animations:
+   - Text fade-in
+   - Blinking cursor
+   - Blinking/typing-style three dots
+   - Optional scanline effect
+   - Optional subtle green glow
+
+10. After all messages are displayed, show:
+   "Process Completed."
+   with a green success-style appearance.
+
+11. Add a "Run Again" button at the bottom.
+   When clicked:
+   - Clear all previous messages
+   - Restart the simulation
+   - Generate new random delays
+
+12. Tailwind CSS should be used for styling wherever possible.
+
+13. Keep the JavaScript clean and beginner-friendly.
+   Add comments explaining:
+   - How random delay is generated
+   - How messages are displayed
+   - How the blinking dots work
+   - How the simulation restarts
+
+14. Important:
+   This is only a visual/simulation project. It must NOT actually access files, passwords,
+    personal data, servers, or perform any hacking operation.
+
+Return the complete working code in a single HTML file containing:
+- HTML
+- Tailwind CSS via CDN
+- JavaScript inside <script> tags
+
+The final result should look like a convincing green hacker terminal, but remain completely 
+harmless and only simulate the messages visually.
